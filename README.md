@@ -1,2 +1,1 @@
-# rezafaizats.github.io
-Personal website
+Personal website for portfolios
