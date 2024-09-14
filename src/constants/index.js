@@ -3,19 +3,16 @@ import {
     car,
     contact,
     csharp,
-    estate,
     git,
     github,
     javascript,
     linkedin,
     phaser,
-    pricewise,
-    snapgram,
-    summiz,
-    threads,
+    gik,
     typescript,
     unity,
-    unreal
+    unreal,
+    gamepad
 } from "../assets/icons";
 
 export const skills = [
@@ -81,8 +78,8 @@ export const experiences = [
         iconBg: "#d5f2f7",
         date: "Apr 2021 - Aug 2021",
         points: [
-            "Develops AR games using Unity and PlayCanvas.",
-            "Creates online multiplayer games with various mechanics.",
+            "Replicates internal AR applications using Unity and PlayCanvas.",
+            "Creates simple online multiplayer games with various mechanics.",
         ],
     },
     {
@@ -98,7 +95,7 @@ export const experiences = [
     },
     {
         title: "Game Programmer",
-        company_name: "Pendopo Studio",
+        company_name: "Pendopo Multi Creations",
         icon: pendopo,
         iconBg: "#3a3838",
         date: "Jul 2020 – Sept 2020",
@@ -141,45 +138,24 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: pricewise,
-        theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        iconUrl: gik,
+        theme: 'btn-back-brown',
+        name: 'Galeri Indonesia kaya',
+        description: 'An interactive and unique experience on digital galleries full of Indonesian cultures and tradition, combining it with the current technology',
+        link: 'https://indonesiakaya.com/kunjungi-kami/galeri-indonesia-kaya/',
     },
     {
-        iconUrl: threads,
-        theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        iconUrl: pendopo,
+        theme: 'btn-back-black',
+        name: 'Rendezvous',
+        description: 'Help develop prologue version of "Rendezvous" with multiple reusable tools that can be easily used by game designer',
+        link: 'https://pendopomc.com/',
     },
     {
-        iconUrl: car,
+        iconUrl: gamepad,
         theme: 'btn-back-blue',
         name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        description: 'Develop a web game using Phaser 3 and releasing it for internal A/B test purposes',
+        link: 'https://freeza354.itch.io/fusefive',
     },
-    {
-        iconUrl: snapgram,
-        theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
-    },
-    {
-        iconUrl: estate,
-        theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
-    },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    }
 ];

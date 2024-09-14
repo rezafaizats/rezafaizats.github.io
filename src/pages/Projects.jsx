@@ -6,12 +6,12 @@ import CTA from '../components/CTA';
 const Projects = () => {
   return (<section className="max-container">
       <h1 className="head-text">
-        My <span className="blue-gradient_text font-semibold drop-shadow">Projects</span> i've been in...
+        All <span className="blue-gradient_text font-semibold drop-shadow">Projects</span> i've been in...
       </h1>
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          I'm involved in numerous projects over the years, but these are some of the highlights that stands out for me:
+          I've been involved in numerous projects over the years, but these are some of the highlights that stands out for me:
         </p>
       </div>
 

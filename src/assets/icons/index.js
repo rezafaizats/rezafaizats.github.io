@@ -18,7 +18,7 @@ import linkedin from './linkedin.svg'
 import twitter from './twitter.svg'
 import car from './car.svg'
 import estate from './estate.svg'
-import pricewise from './pricewise.svg'
+import gik from './gik.svg'
 import snapgram from './snapgram.svg'
 import summiz from './summiz.svg'
 import threads from './threads.svg'
@@ -30,6 +30,7 @@ import csharp from './csharp.svg'
 import unity from './unity.svg'
 import unreal from './unreal.svg'
 import phaser from './phaser.svg'
+import gamepad from './gamepad.svg'
 
 export {
     css,
@@ -56,8 +57,8 @@ export {
     twitter,
     car,
     estate,
-    pricewise,
-    snapgram,
+    gik,
+    gamepad,
     summiz,
     threads,
     arrow,
