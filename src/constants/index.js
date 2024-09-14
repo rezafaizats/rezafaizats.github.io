@@ -154,7 +154,7 @@ export const projects = [
     {
         iconUrl: gamepad,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
+        name: 'Fuse Five',
         description: 'Develop a web game using Phaser 3 and releasing it for internal A/B test purposes',
         link: 'https://freeza354.itch.io/fusefive',
     },
