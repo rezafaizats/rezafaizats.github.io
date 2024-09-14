@@ -26,9 +26,14 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import csharp from './csharp.svg'
+import unity from './unity.svg'
+import unreal from './unreal.svg'
+import phaser from './phaser.svg'
 
 export {
     css,
+    csharp,
     express,
     git,
     github,
@@ -44,6 +49,9 @@ export {
     sass,
     tailwindcss,
     typescript,
+    unity,
+    unreal,
+    phaser,
     linkedin,
     twitter,
     car,

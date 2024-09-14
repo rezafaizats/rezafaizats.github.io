@@ -1,42 +1,24 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { meta, pendopo, vriday, nightspade, fxmedia } from "../assets/images";
 import {
     car,
     contact,
-    css,
+    csharp,
     estate,
-    express,
     git,
     github,
-    html,
     javascript,
     linkedin,
-    mongodb,
-    motion,
-    mui,
-    nextjs,
-    nodejs,
+    phaser,
     pricewise,
-    react,
-    redux,
-    sass,
     snapgram,
     summiz,
-    tailwindcss,
     threads,
-    typescript
+    typescript,
+    unity,
+    unreal
 } from "../assets/icons";
 
 export const skills = [
-    {
-        imageUrl: css,
-        name: "CSS",
-        type: "Frontend",
-    },
-    {
-        imageUrl: express,
-        name: "Express",
-        type: "Backend",
-    },
     {
         imageUrl: git,
         name: "Git",
@@ -48,58 +30,28 @@ export const skills = [
         type: "Version Control",
     },
     {
-        imageUrl: html,
-        name: "HTML",
-        type: "Frontend",
+        imageUrl: csharp,
+        name: "C#",
+        type: "Fullstack",
+    },
+    {
+        imageUrl: unity,
+        name: "Unity",
+        type: "Game Engine",
+    },
+    {
+        imageUrl: unreal,
+        name: "Unreal Engine",
+        type: "Game Engine",
+    },
+    {
+        imageUrl: phaser,
+        name: "Phaser3",
+        type: "Game Engine",
     },
     {
         imageUrl: javascript,
         name: "JavaScript",
-        type: "Frontend",
-    },
-    {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
-    },
-    {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nextjs,
-        name: "Next.js",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nodejs,
-        name: "Node.js",
-        type: "Backend",
-    },
-    {
-        imageUrl: react,
-        name: "React",
-        type: "Frontend",
-    },
-    {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
-    },
-    {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
-    },
-    {
-        imageUrl: tailwindcss,
-        name: "Tailwind CSS",
         type: "Frontend",
     },
     {
@@ -111,55 +63,60 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        title: "Game Programmer",
+        company_name: "Vriday Studio",
+        icon: vriday,
+        iconBg: "#f5d996",
+        date: "Oct 2021 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Creates an interactive gallery full of Indonesian heritage and cultures",
+            "Collaborates with teams full of creative peoples including designers, product managers, and other developers to create engaging experience.",
+            "Develops games using LIDAR and Kinect sensors, detecting people and motion for interactive gameplay.",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        title: "Intern Unity Developer",
+        company_name: "FX Media",
+        icon: fxmedia,
+        iconBg: "#d5f2f7",
+        date: "Apr 2021 - Aug 2021",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Develops AR games using Unity and PlayCanvas.",
+            "Creates online multiplayer games with various mechanics.",
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        title: "Intern Game Programmer",
+        company_name: "Falkana Studio",
+        icon: unity,
+        iconBg: "#bebdbd",
+        date: "Dec 2020 – Feb 2021",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Contributing in multiple projects within short deadlines",
+            "Reducing code redundancies down to 70% smaller for stable and bug-free games",
         ],
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
+        title: "Game Programmer",
+        company_name: "Pendopo Studio",
+        icon: pendopo,
+        iconBg: "#3a3838",
+        date: "Jul 2020 – Sept 2020",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Develops tools for cutscenes, dialogue systems, and mini-games to be used by game designer",
+            "Collaborates with teams including game designer and artist in a incubation game studio program",
+            "Help deliver the game until it is released in alpha state"
+        ],
+    },
+    {
+        title: "Intern Web Game Programmer",
+        company_name: "Nightspade Studio",
+        icon: nightspade,
+        iconBg: "#363636",
+        date: "Jan 2020 – Mar 2020",
+        points: [
+            "Develops web game using Phaser 3 from scratch",
+            "Releases game in Netlify, used to A/B test internal product"
         ],
     },
 ];

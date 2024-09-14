@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 240 240">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-family: Orbitron-Regular, Orbitron;
+        font-size: 86.17px;
+        letter-spacing: .1em;
+      }
+
+      .cls-2 {
+        fill: #3996ea;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <path class="cls-2" d="M237.92,120c0,33.14-26.86,60-60,60-16.35,0-31.17-6.54-41.99-17.14h-31.85c-10.82,10.6-25.64,17.14-41.99,17.14-33.14,0-60-26.86-60-60s26.86-60,60-60c.39,0,.77,0,1.16,0h0s114.9,0,114.9,0c33.03.13,59.77,26.94,59.77,60Z"/>
+  <text class="cls-1" transform="translate(49 146.28)"><tspan x="0" y="0">RF</tspan></text>
+</svg>

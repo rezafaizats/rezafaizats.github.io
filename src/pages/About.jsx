@@ -39,7 +39,7 @@ const About = () => {
           <h3 className="subhead-text">Work Experience</h3>
           <div className="mt-5 flex flex-col gap-3 text-slate-500">
             <p>
-              I've experienced working with different companies, increasing my expertise while teaming up with all different kind of people. Here's the rundown:
+              I've worked with different companies, increasing my expertise while teaming up with all different kind of people. Here's the rundown:
             </p>
           </div>
 
@@ -72,7 +72,7 @@ const About = () => {
                   </p>
                   <ul className="my-5 list-disc ml-5 space-y-2">
                     {experience.points.map((point, index) => (
-                      <li key={`experience-point-${index}`} className="text-black-500/50 font-normal pl-1 text-sm">
+                      <li key={`experience-point-${index}`} className="text-gray-500 font-normal pl-1 text-sm">
                         {point}
                       </li>
                     ))}
