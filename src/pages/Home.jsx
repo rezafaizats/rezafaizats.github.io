@@ -6,6 +6,8 @@ import Island from '../models/Island'
 import Sky from '../models/Sky'
 import Plane from '../models/Plane'
 import HomeInfo from '../components/HomeInfo'
+import { socialLinks } from '../constants'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   const [isRotating, setIsRotating] = useState(false);
@@ -75,6 +77,21 @@ const Home = () => {
                  />
             </Suspense>
         </Canvas>
+
+        <div className="absolute bottom-2 left-2">
+            {socialLinks.map( (social) => (
+                <div>
+                    <a href={social.link}>
+                        <img 
+                            src={social.iconUrl}
+                            alt={social.name}
+                            className="w-6 h-6 object-contain"
+                        />
+                    </a>
+                </div>
+            ))}
+        </div>
+
     </section>
   )
 }
