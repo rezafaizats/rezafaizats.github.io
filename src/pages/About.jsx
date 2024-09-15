@@ -1,5 +1,5 @@
 import React from 'react'
-import { skills, experiences } from '../constants'
+import { skills, experiences, socialLinks } from '../constants'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import CTA from '../components/CTA';
@@ -17,7 +17,7 @@ const About = () => {
         </p>
       </div>
 
-      <div className="py-10 flex flex-col">
+      <div className="py-4 flex flex-col">
         <h3 className="subhead-text">My Skills</h3>
 
         <div className="mt-16 flex flex-wrap gap-12">
@@ -86,6 +86,23 @@ const About = () => {
         <hr className="border-slate-200" />
         
         <CTA />
+        
+        <hr className="border-slate-400 mt-5 mb-5" />
+        <div className="relative top-2 w-full text-center">
+          <div className="inline-flex space-x-2">
+              {socialLinks.map( (social) => (
+                  <div>
+                      <a href={social.link}>
+                          <img 
+                              src={social.iconUrl}
+                              alt={social.name}
+                              className="w-6 h-6 object-contain"
+                          />
+                      </a>
+                  </div>
+              ))}
+          </div>
+        </div>
       </div>
 
     </section>

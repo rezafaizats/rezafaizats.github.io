@@ -140,7 +140,7 @@ export const projects = [
     {
         iconUrl: gik,
         theme: 'btn-back-brown',
-        name: 'Galeri Indonesia kaya',
+        name: 'Galeri Indonesia Kaya',
         description: 'An interactive and unique experience on digital galleries full of Indonesian cultures and tradition, combining it with the current technology',
         link: 'https://indonesiakaya.com/kunjungi-kami/galeri-indonesia-kaya/',
     },

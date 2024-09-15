@@ -78,7 +78,7 @@ const Home = () => {
             </Suspense>
         </Canvas>
 
-        <div className="absolute bottom-2 left-2">
+        <div className="absolute bottom-2 left-2 space-y-1">
             {socialLinks.map( (social) => (
                 <div>
                     <a href={social.link}>

@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { projects } from '../constants'
+import { projects, socialLinks } from '../constants'
 import { arrow } from '../assets/icons'
 import CTA from '../components/CTA';
 
@@ -58,6 +58,23 @@ const Projects = () => {
       <hr className="border-slate-200"/>
 
       <CTA />
+
+      <hr className="border-slate-400 mt-5 mb-5" />
+      <div className="relative top-2 w-full text-center">
+        <div className="inline-flex space-x-2">
+            {socialLinks.map( (social) => (
+                <div>
+                    <a href={social.link}>
+                        <img 
+                            src={social.iconUrl}
+                            alt={social.name}
+                            className="w-6 h-6 object-contain"
+                        />
+                    </a>
+                </div>
+            ))}
+        </div>
+      </div>
     </section>
   )
 }
